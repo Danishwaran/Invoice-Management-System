@@ -1,0 +1,90 @@
+img
+{
+    width: auto;
+    height: 70%;
+    margin-top: 0.2%;
+}
+
+#Components-logoSection
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#ABCLOGO
+{
+    position: absolute;
+    top:0.2%;
+    left:1%;
+    width:4%;
+    height: 8%;
+}
+
+span
+{
+    color: white;
+    font-family: "Times New Roman";
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 2.5%;
+    left: 5%;
+}
+
+#conponents-BtnSection
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#component-advBtns
+{
+    margin: 0.8%;
+    height: 41px;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 14px;
+    border-width: 2px;
+}
+
+#component-crudBtns
+{
+    margin: 1%;
+}
+
+#ADD,#DELETE,#EDIT
+{
+    border-color: aqua;
+}
+
+#EDIT:disabled
+{
+    border-top-color: black;
+    border-bottom-color: black;
+}
+
+#DELETE:disabled
+{
+    border-color: black;
+}
+
+
+#refresh
+{
+    height: 41px;
+    width: 41px;
+    border-style: ridge;
+    border-color: aqua;
+    border-radius: 5px;
+    border-width: 1px;
+    color:aqua;
+    text-align: center;
+    font-size: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
